@@ -1,0 +1,15 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Maven build output and compiled Java classes
+target/
+*.class
+
+# Local credentials for later Web exercises
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
