@@ -8,6 +8,9 @@ public class Student_Test {
 
         Student c = new Student("003", "张五", 99, Student.StudentStatus.STUDYING);
         show(c);
+        c.setScore(85);
+        c.setStatus(Student.StudentStatus.GRADUATED);
+        show(c);
     }
 
     public static void show(Student s) {
